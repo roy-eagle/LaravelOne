@@ -18,4 +18,6 @@ Route::get('/', function () {
 Route::get('/uno', function () {
     return view('welcomes');
 });
-
+Route::get('/dos', function () {
+    return view('welcomess');
+});
